@@ -1,0 +1,6 @@
+project: savantenvs/ESP32-BLE-Gamepad
+target: descriptor
+cmds:
+  - cmd: /mayhem/fuzz_descriptor
+    libfuzzer: true
+    timeout: 10

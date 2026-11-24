@@ -1,0 +1,6 @@
+project: savantenvs/ESP32-BLE-Gamepad
+target: sinput
+cmds:
+  - cmd: /mayhem/fuzz_sinput
+    libfuzzer: true
+    timeout: 10
